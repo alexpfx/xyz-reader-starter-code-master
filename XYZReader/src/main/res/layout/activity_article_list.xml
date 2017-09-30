@@ -29,7 +29,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
-        app:elevation="@dimen/fab_elevation"
+        app:elevation="@dimen/app_bar_elevation"
         >
 
         <android.support.v7.widget.Toolbar

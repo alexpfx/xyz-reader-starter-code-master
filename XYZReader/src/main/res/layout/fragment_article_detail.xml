@@ -5,6 +5,7 @@
                                                 android:layout_width="match_parent"
                                                 android:layout_height="match_parent"
                                                 android:background="@color/white"
+                                                android:clipToPadding="false"
     >
 
     <com.example.xyzreader.ui.ObservableScrollView
@@ -31,8 +32,7 @@
 
                 <View
                     android:layout_width="match_parent"
-                    android:layout_height="112dp"
-                    android:background="@drawable/photo_background_protection"/>
+                    android:layout_height="112dp"/>
 
             </FrameLayout>
 
@@ -95,7 +95,6 @@
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
@@ -107,7 +106,8 @@
         app:borderWidth="0dp"
         app:elevation="6dp"
         app:fabSize="normal"
-        app:pressedTranslationZ="6dp"
+        app:pressedTranslationZ="8dp"
         />
+
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
