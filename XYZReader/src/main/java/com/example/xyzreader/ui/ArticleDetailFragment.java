@@ -181,6 +181,7 @@ public class ArticleDetailFragment extends Fragment implements
         mDrawInsetsFrameLayout.setInsetBackground(mStatusBarColorDrawable);
     }
 
+
     private Date parsePublishedDate() {
         try {
             String date = mCursor.getString(ArticleLoader.Query.PUBLISHED_DATE);

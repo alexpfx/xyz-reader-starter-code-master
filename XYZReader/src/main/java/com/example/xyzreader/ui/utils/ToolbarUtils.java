@@ -8,7 +8,6 @@ import android.support.v7.widget.Toolbar;
 /**
  * Created by alexandre on 10/09/17.
  */
-
 public class ToolbarUtils {
 
     public static void setupToolbarWithLogo(AppCompatActivity activity, @NonNull Toolbar toolbar, @DrawableRes int
