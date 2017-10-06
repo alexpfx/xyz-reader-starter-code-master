@@ -6,7 +6,10 @@
                                                 android:layout_height="match_parent"
                                                 android:background="@color/white"
                                                 android:clipToPadding="false"
+                                                app:layout_scrollFlags="scroll|enterAlwaysCollapsed"
+
     >
+
 
     <com.example.xyzreader.ui.ObservableScrollView
         android:id="@+id/scrollview"
@@ -102,6 +105,7 @@
         </LinearLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
+
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="wrap_content"
@@ -110,12 +114,10 @@
         android:layout_margin="@dimen/fab_margin"
         android:clickable="true"
         android:src="@drawable/ic_share"
+        android:stateListAnimator="@anim/fab_anim"
         app:borderWidth="0dp"
         app:fabSize="normal"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:stateListAnimator="@anim/fab_anim"
-
-        />
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"/>
 
 
 </com.example.xyzreader.ui.DrawInsetsFrameLayout>
